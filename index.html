@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#home" class="logo"><span>Om Patel</span></a>
+
+      <ul class="nav-links">
+        <li>
+          <a href="#home">Home</a>
+        </li>
+        <li>
+          <a href="#about">About</a>
+        </li>
+        <li>
+          <a href="#education">Education</a>
+        </li>
+        <li>
+          <a href="#projects">Projects</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+        <li class="mobile-nav-item">
+          <a href="https://github.com" target="_blank" class="visit-btn-mobile"
+            >Visit Github
+          </a>
+        </li>
+      </ul>
+
+      <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+      <a href="https://github.com" target="_blank" class="visit-btn">
+        Visit Github
+      </a>
+    </header>
+
+    <!-- Home -->
+    <section id="home" class="home">
+      <div class="hero-container">
+        <div class="hero-text">
+          <h3>Hi, I'm</h3>
+          <h1>Om Patel</h1>
+          <span class="tagline">High School Senior | Aspiring CS Major</span>
+
+          <div class="tech-badges">
+            <span class="badge"><i class="fa-brands fa-html5"></i> HTML5</span>
+            <span class="badge"
+              ><i class="fa-brands fa-css3-alt"></i> CSS3</span
+            >
+            <span class="badge"
+              ><i class="fa-brands fa-js"></i> JavaScript</span
+            >
+            <span class="badge"
+              ><i class="fa-brands fa-python"></i> Python</span
+            >
+            <span class="badge"
+              ><i class="fa-solid fa-database"></i> MySQL</span
+            >
+          </div>
+
+          <div class="btn-group">
+            <a href="./resume.pdf" target="_blank" class="btn">View Resume</a>
+            <a href="./transcript.pdf" target="_blank" class="btn"
+              >View Transcript</a
+            >
+            <a href="./sat-score.pdf" target="_blank" class="btn"
+              >View SAT Score</a
+            >
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <div class="card-title">
+            <i class="fa-solid fa-address-card"></i>
+            <h3>Profile Snapshot</h3>
+          </div>
+          <div class="snapshot-list">
+            <div class="snapshot-item">
+              <span class="item-label">Status</span>
+              <p>US Permanent Resident (Green Card)</p>
+            </div>
+            <div class="snapshot-item">
+              <span class="item-label">Current School</span>
+              <p>J.P. Stevens High School (Grade 12)</p>
+            </div>
+            <div class="snapshot-item">
+              <span class="item-label">Previous Secondary Education</span>
+              <p>B.S. Patel School (CBSE - Grade 9 through 11)</p>
+            </div>
+            <div class="snapshot-item">
+              <span class="item-label">Target Major</span>
+              <p>Computer Science (B.S.)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Me -->
+    <section id="about" class="about">
+      <h2 class="section-title">
+        <span class="title-pill"><i class="fa-solid fa-user"></i> About Me</span>
+      </h2>
+      <div class="about-container">
+        <div class="about-sidebar">
+          <img src="./ompatel.jpeg" alt="Om Patel Photo" />
+          <div class="languages-card">
+            <i class="fa-solid fa-language"></i>
+            <h4>Languages</h4>
+            <p>English, Gujarati, Hindi</p>
+          </div>
+        </div>
+
+        <div class="about-text">
+          <h3>My Journey: Resilience, Discipline, & Code</h3>
+          <p>
+            I built my academic foundation at B.S. Patel Primary School in India
+            in the CBSE STEM track from Jr. KG through mid-12th grade. Relocated
+            to the U.S. in May 2026 as a Permanent Resident to finish senior
+            year at J.P. Stevens High School. This imposed a major challenge in
+            front of me.
+          </p>
+          <p>
+            Taking required classes with underclassmen gave me two completely
+            opposite experiences. The freshmen in my Bio class were amazing—they
+            were shocked to have a senior sitting with them, but they were super
+            kind, welcoming, and made coming to a new school feel easy. US
+            History with sophomores, on the other hand, was a massive test of my
+            patience. With teammates showing zero accountability and leaving
+            everything until the final night, I ended up carrying most of
+            workload to save my grade. Juggling my college applications while
+            doing everyone else's work was exhausting, but it proved that when
+            group coordination breaks down, I can step up and get the job done.
+          </p>
+          <p>
+            My passion for Computer Science started with a deep childhood love
+            for video games. The moment I realized that every game, website, and
+            app is built line-by-line through code written by real engineers, I
+            was completely hooked—thinking, "HOW COOL!" That single realization
+            sparked my eagerness to dive into coding and master software
+            engineering.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="education">
+      <h2 class="section-title">
+        <span class="title-pill"><i class="fa-solid fa-graduation-cap"></i> Education</span>
+      </h2>
+
+      <div class="education-info">
+        <div class="grid">
+          <!-- JPS -->
+          <div class="grid-card">
+            <div class="card-header">
+              <img
+                src="./og-jps-logo.png"
+                alt="J.P. Stevens High School Logo"
+                class="school-logo"
+              />
+              <div>
+                <span>J.P. Stevens High School</span>
+                <h3>Grade 12 | Edison, NJ (May 2026–Present)</h3>
+              </div>
+            </div>
+            <p>
+              Managing graduation requirements, SAT prep, and college
+              applications. Continuously adapting to local rubrics—specifically
+              in Pre-Calculus, where my Indian math methods required strict
+              re-formatting to meet rigid teacher expectations, causing an
+              initial grade dip.
+            </p>
+          </div>
+
+          <!-- BSPPS -->
+          <div class="grid-card">
+            <div class="card-header">
+              <img
+                src="./bspps-logo.png"
+                alt="B.S. Patel School Logo"
+                class="school-logo"
+              />
+              <div>
+                <span>B.S. Patel Primary School</span>
+                <h3>Jr. KG – 12th Grade | Bilimora, India</h3>
+              </div>
+            </div>
+            <p>
+              Maintained consistent high academic standing across 11+ years in a
+              rigorous CBSE STEM curriculum. Built strong analytical thinking
+              skills and foundational programming logic through PCM + IP
+              (Physics, Chemistry, Math, and Informatics Practices) in Grade
+              11th and 12th.
+            </p>
+          </div>
+
+          <!-- Target Major -->
+          <div class="grid-card full-card">
+            <div class="card-header">
+              <i class="fa-solid fa-code"></i>
+              <div>
+                <span>Target Academic Major</span>
+                <h3>B.S. Computer Science</h3>
+              </div>
+            </div>
+            <p>
+              Driven by an authentic passion and curiosity for software
+              engineering, algorithms, and mathematical problem-solving.
+              Focusing on building practical tools and continuously mastering
+              new programming concepts.
+            </p>
+          </div>
+
+          <!-- APs -->
+          <div class="grid-card full-card ap-card">
+            <div class="card-header">
+              <i class="fa-solid fa-award"></i>
+              <div>
+                <span>Academic Rigor & Testing Strategy</span>
+                <h3>Upcoming AP Examinations (May 2027)</h3>
+              </div>
+            </div>
+
+            <div class="ap-split">
+              <!-- AP Calc BC -->
+              <div class="ap-item">
+                <h4><i class="fa-solid fa-calculator"></i> AP Calculus BC</h4>
+                <p class="ap-date">Scheduled: May 2027 | Self-Study</p>
+                <p>
+                  My CBSE math track in India heavily covered calculus, but
+                  unfamiliarity with US graphing formats on the placement test
+                  put me in Pre-Calculus. Having already completed through
+                  mid-12th grade in India, I'm self-studying for the AP Calculus
+                  BC exam in May 2027 to prove my true math level.
+                </p>
+              </div>
+
+              <div class="ap-divider"></div>
+
+              <!-- AP CSA -->
+              <div class="ap-item">
+                <h4>
+                  <i class="fa-solid fa-laptop-code"></i> AP Computer Science A
+                </h4>
+                <p class="ap-date">Scheduled: May 2027 | Self-Study</p>
+                <p>
+                  My CBSE coursework in India gave me a solid foundation in
+                  Python, data handling, and system logic. Driven by my love for
+                  coding, I'm building on that background to self-study Java and
+                  Object-Oriented Programming for the AP Computer Science A exam
+                  in May 2027.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <h2 class="section-title">
+        <span class="title-pill"><i class="fa-solid fa-laptop-code"></i> Projects</span>
+      </h2>
+
+      <div class="projects-note">
+        <p>
+          <i class="fa-solid fa-circle-info"></i>
+          <strong>Note:</strong> Following my U.S. relocation on May 22, 2026, I turned my passion for coding into real projects. Starting in June with basic HTML/CSS knowledge, I spent my summer vacation teaching myself JavaScript, concepts, and algorithms through YouTube tutorials and online tools on my dad's laptop. Once school started, I navigated restrictions on my school-issued MacBook by coding on StackBlitz during study halls and free time, then transferred my files to my dad's laptop to publish on GitHub. Each project here reflects my continuous self-learning, effort, and authentic drive for Computer Science.
+        </p>
+      </div>
+
+      <div class="projects-grid">
+        <div class="projects-card full-card">
+          <img
+            src="./grade-con.png"
+            alt="Dual Curriculum Grade Converter Project"
+          />
+          <h3>Dual Curriculum Grade Converter</h3>
+          <p>
+            A web utility designed to convert Indian CBSE percentage marks into
+            equivalent US GPA grades. Built to solve a real problem during my
+            relocation. By researched WES metrics featuring original conversion
+            algorithms with vast list of courses
+          </p>
+          <div class="project-tags">
+            <span><i class="fa-brands fa-html5"></i> HTML5</span>
+            <span><i class="fa-brands fa-css3-alt"></i> CSS3</span>
+            <span><i class="fa-brands fa-js"></i> JavaScript</span>
+          </div>
+          <div class="btn-group">
+            <a href="#" class="btn">Live Demo</a>
+            <a href="#" class="btn">Github Repo</a>
+          </div>
+        </div>
+
+        <div class="projects-card">
+          <img src="./sci-calc.png" alt="Scientific Calculator Project" />
+          <h3>Scientific Web Calculator</h3>
+          <p>
+            An interactive web application supporting trigonometric,
+            logarithmic, and algebraic functions. Built to demonstrate clean DOM
+            manipulation, custom event handling, and algorithmic precision in
+            JavaScript.
+          </p>
+          <div class="project-tags">
+            <span><i class="fa-brands fa-html5"></i> HTML5</span>
+            <span><i class="fa-brands fa-css3-alt"></i> CSS3</span>
+            <span><i class="fa-brands fa-js"></i> JavaScript</span>
+          </div>
+          <div class="btn-group">
+            <a href="#" class="btn">Live Demo</a>
+            <a href="#" class="btn">Github Repo</a>
+          </div>
+        </div>
+
+        <div class="projects-card">
+          <img src="./phy-math.png" alt="STEM Formula Solver Project" />
+          <h3>STEM & Physics Formula Solver</h3>
+          <p>
+            A Python desktop GUI application built using Object-Oriented
+            Programming (OOP) and Tkinter. Automates CBSE Class 11/12 Physics
+            formulas and mathematical formulas. Built to demonstrate my python
+            knowledge from Indian background.
+          </p>
+          <div class="project-tags">
+            <span><i class="fa-brands fa-python"></i> Python</span>
+            <span><i class="fa-solid fa-window-restore"></i> Tkinter</span>
+            <span><i class="fa-solid fa-cubes"></i> OOP</span>
+          </div>
+          <div class="btn-group">
+            <a href="#" class="btn">Github Repo</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2 class="section-title">
+        <span class="title-pill"><i class="fa-solid fa-paper-plane"></i> Contact</span>
+      </h2>
+
+      <div class="contact-box">
+        <div class="contact-item">
+          <i class="fa-solid fa-envelope"></i>
+          <div>
+            <span>Primary Email</span>
+            <p>
+              <a href="mailto:ompatel4723@gmail.com">ompatel4723@gmail.com</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <i class="fa-regular fa-envelope"></i>
+          <div>
+            <span>Alternate Email</span>
+            <p>
+              <a href="mailto:rakeshpatel71@gmail.com"
+                >rakeshpatel71@gmail.com</a
+              >
+            </p>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <i class="fa-solid fa-phone"></i>
+          <div>
+            <span>Phone</span>
+            <p>+1 (908) 347-9070</p>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <i class="fa-brands fa-github"></i>
+          <div>
+            <span>GitHub</span>
+            <p>
+              <a href="https://github.com" target="_blank"
+                >github.com/ompatel</a
+              >
+            </p>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <i class="fa-solid fa-location-dot"></i>
+          <div>
+            <span>Location</span>
+            <p>Edison, New Jersey</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <ul>
+        <li>
+          <a href="#home">Home</a>
+        </li>
+
+        <li>
+          <a href="#about">About</a>
+        </li>
+
+        <li>
+          <a href="#education">Education</a>
+        </li>
+
+        <li>
+          <a href="#projects">Projects</a>
+        </li>
+
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+
+      <p class="copyright">
+        &copy; All rights reserved | Om Patel &bull;
+        <a href="https://github.com" target="_blank" class="repo-link">
+          <i class="fa-brands fa-github"></i> View Portfolio Repository
+        </a>
+      </p>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
