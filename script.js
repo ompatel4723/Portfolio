@@ -19,3 +19,27 @@ document.querySelectorAll('.nav-links a').forEach((link) => {
     navLinks.classList.remove('active');
   });
 });
+
+// Video pop-up controls
+function openDemo() {
+  const modal = document.getElementById('videoModal');
+  const video = document.getElementById('demoVideo');
+  modal.style.display = 'flex';
+  video.play();
+}
+
+function closeDemo() {
+  const modal = document.getElementById('videoModal');
+  const video = document.getElementById('demoVideo');
+  video.pause();
+  video.currentTime = 0;
+  modal.style.display = 'none';
+}
+
+// Close video modal
+window.addEventListener('click', (e) => {
+  const modal = document.getElementById('videoModal');
+  if (e.target === modal) {
+    closeDemo();
+  }
+});
